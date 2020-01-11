@@ -7,7 +7,7 @@ function map(srcRay,callback){
   return results;
 }
 
-function reduce(srcRay,callback,start){
+function reduce(srcRay,callback,starting){
   let results = srcRay[0];
   let i = 1;
   if(!!starting){
