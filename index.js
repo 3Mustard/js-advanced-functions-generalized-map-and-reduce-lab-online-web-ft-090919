@@ -18,4 +18,5 @@ function reduce(srcRay,callback,start){
   for(i; i < srcRay.length; i++){
     results = callback(srcRay[i], results);
   }
+  return results;
 }
